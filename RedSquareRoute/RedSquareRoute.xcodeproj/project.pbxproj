@@ -3,16 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B89194D2C585F4285C484C7 /* Pods_RedSquareRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC9865002301897D8283E1 /* Pods_RedSquareRoute.framework */; };
+		492EEFB723D3C408000EFD01 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EEFB623D3C408000EFD01 /* Constants.swift */; };
+		496CAF2E23D3B7AA0049AF03 /* GoogleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CAF2D23D3B7AA0049AF03 /* GoogleService.swift */; };
+		496CAF3023D3BA990049AF03 /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CAF2F23D3BA990049AF03 /* GoogleMapView.swift */; };
 		49DC2A1623D32A93003B35C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC2A1523D32A93003B35C9 /* AppDelegate.swift */; };
 		49DC2A1823D32A93003B35C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC2A1723D32A93003B35C9 /* SceneDelegate.swift */; };
 		49DC2A1A23D32A93003B35C9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC2A1923D32A93003B35C9 /* MapViewController.swift */; };
 		49DC2A1F23D32A97003B35C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DC2A1E23D32A97003B35C9 /* Assets.xcassets */; };
 		49DC2A2223D32A97003B35C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DC2A2023D32A97003B35C9 /* LaunchScreen.storyboard */; };
 		49DC2A2D23D32A97003B35C9 /* RedSquareRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC2A2C23D32A97003B35C9 /* RedSquareRouteTests.swift */; };
+		6E38174ABABA56452893165F /* Pods_RedSquareRouteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B2D29B80DFAD7ABFE348E4 /* Pods_RedSquareRouteTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		492EEFB623D3C408000EFD01 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		496CAF2D23D3B7AA0049AF03 /* GoogleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleService.swift; sourceTree = "<group>"; };
+		496CAF2F23D3BA990049AF03 /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
 		49DC2A1223D32A93003B35C9 /* RedSquareRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedSquareRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DC2A1523D32A93003B35C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DC2A1723D32A93003B35C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,12 @@
 		49DC2A2823D32A97003B35C9 /* RedSquareRouteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedSquareRouteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DC2A2C23D32A97003B35C9 /* RedSquareRouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedSquareRouteTests.swift; sourceTree = "<group>"; };
 		49DC2A2E23D32A97003B35C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B2D29B80DFAD7ABFE348E4 /* Pods_RedSquareRouteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedSquareRouteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3A90C832005EE3E088F13D /* Pods-RedSquareRouteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSquareRouteTests.debug.xcconfig"; path = "Target Support Files/Pods-RedSquareRouteTests/Pods-RedSquareRouteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80AE855DAAE5492054C30BF7 /* Pods-RedSquareRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSquareRoute.debug.xcconfig"; path = "Target Support Files/Pods-RedSquareRoute/Pods-RedSquareRoute.debug.xcconfig"; sourceTree = "<group>"; };
+		92BC9865002301897D8283E1 /* Pods_RedSquareRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedSquareRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0AC8D11759BD467B44BDD29 /* Pods-RedSquareRouteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSquareRouteTests.release.xcconfig"; path = "Target Support Files/Pods-RedSquareRouteTests/Pods-RedSquareRouteTests.release.xcconfig"; sourceTree = "<group>"; };
+		D80F9CB1C40FFECF5CDBC172 /* Pods-RedSquareRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedSquareRoute.release.xcconfig"; path = "Target Support Files/Pods-RedSquareRoute/Pods-RedSquareRoute.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B89194D2C585F4285C484C7 /* Pods_RedSquareRoute.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +65,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E38174ABABA56452893165F /* Pods_RedSquareRouteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00F8452020A6AD426AB4F644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92BC9865002301897D8283E1 /* Pods_RedSquareRoute.framework */,
+				66B2D29B80DFAD7ABFE348E4 /* Pods_RedSquareRouteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		496CAF2C23D3B7860049AF03 /* GoogleServices */ = {
+			isa = PBXGroup;
+			children = (
+				496CAF2D23D3B7AA0049AF03 /* GoogleService.swift */,
+				492EEFB623D3C408000EFD01 /* Constants.swift */,
+			);
+			path = GoogleServices;
+			sourceTree = "<group>";
+		};
 		49DC2A0923D32A93003B35C9 = {
 			isa = PBXGroup;
 			children = (
 				49DC2A1423D32A93003B35C9 /* RedSquareRoute */,
 				49DC2A2B23D32A97003B35C9 /* RedSquareRouteTests */,
 				49DC2A1323D32A93003B35C9 /* Products */,
+				80ACAF74752ED2DB68DAF5A3 /* Pods */,
+				00F8452020A6AD426AB4F644 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +116,7 @@
 				49DC2A1523D32A93003B35C9 /* AppDelegate.swift */,
 				49DC2A1723D32A93003B35C9 /* SceneDelegate.swift */,
 				49DC2A3723D32B66003B35C9 /* MapViewController */,
+				496CAF2C23D3B7860049AF03 /* GoogleServices */,
 				49DC2A1E23D32A97003B35C9 /* Assets.xcassets */,
 				49DC2A2023D32A97003B35C9 /* LaunchScreen.storyboard */,
 				49DC2A2323D32A97003B35C9 /* Info.plist */,
@@ -100,8 +137,20 @@
 			isa = PBXGroup;
 			children = (
 				49DC2A1923D32A93003B35C9 /* MapViewController.swift */,
+				496CAF2F23D3BA990049AF03 /* GoogleMapView.swift */,
 			);
 			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		80ACAF74752ED2DB68DAF5A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80AE855DAAE5492054C30BF7 /* Pods-RedSquareRoute.debug.xcconfig */,
+				D80F9CB1C40FFECF5CDBC172 /* Pods-RedSquareRoute.release.xcconfig */,
+				7E3A90C832005EE3E088F13D /* Pods-RedSquareRouteTests.debug.xcconfig */,
+				A0AC8D11759BD467B44BDD29 /* Pods-RedSquareRouteTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DC2A3123D32A97003B35C9 /* Build configuration list for PBXNativeTarget "RedSquareRoute" */;
 			buildPhases = (
+				C32A34EF20488A5090F3B33D /* [CP] Check Pods Manifest.lock */,
 				49DC2A0E23D32A93003B35C9 /* Sources */,
 				49DC2A0F23D32A93003B35C9 /* Frameworks */,
 				49DC2A1023D32A93003B35C9 /* Resources */,
+				149ABD3BEA8E87C7DC63108D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DC2A3423D32A97003B35C9 /* Build configuration list for PBXNativeTarget "RedSquareRouteTests" */;
 			buildPhases = (
+				B1C98596F836F998D3B68FA2 /* [CP] Check Pods Manifest.lock */,
 				49DC2A2423D32A97003B35C9 /* Sources */,
 				49DC2A2523D32A97003B35C9 /* Frameworks */,
 				49DC2A2623D32A97003B35C9 /* Resources */,
@@ -199,11 +251,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		149ABD3BEA8E87C7DC63108D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedSquareRoute/Pods-RedSquareRoute-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedSquareRoute/Pods-RedSquareRoute-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedSquareRoute/Pods-RedSquareRoute-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C98596F836F998D3B68FA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedSquareRouteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32A34EF20488A5090F3B33D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedSquareRoute-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49DC2A0E23D32A93003B35C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496CAF2E23D3B7AA0049AF03 /* GoogleService.swift in Sources */,
+				492EEFB723D3C408000EFD01 /* Constants.swift in Sources */,
+				496CAF3023D3BA990049AF03 /* GoogleMapView.swift in Sources */,
 				49DC2A1A23D32A93003B35C9 /* MapViewController.swift in Sources */,
 				49DC2A1623D32A93003B35C9 /* AppDelegate.swift in Sources */,
 				49DC2A1823D32A93003B35C9 /* SceneDelegate.swift in Sources */,
@@ -356,6 +475,7 @@
 		};
 		49DC2A3223D32A97003B35C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80AE855DAAE5492054C30BF7 /* Pods-RedSquareRoute.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +494,7 @@
 		};
 		49DC2A3323D32A97003B35C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D80F9CB1C40FFECF5CDBC172 /* Pods-RedSquareRoute.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +513,7 @@
 		};
 		49DC2A3523D32A97003B35C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3A90C832005EE3E088F13D /* Pods-RedSquareRouteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +536,7 @@
 		};
 		49DC2A3623D32A97003B35C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0AC8D11759BD467B44BDD29 /* Pods-RedSquareRouteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
